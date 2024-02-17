@@ -1,0 +1,90 @@
+.main{width: 100%;}
+.main_in{width: 93%;
+    margin: 0 auto;}
+.main_img img{width: 100%;}
+.slider{display:none;}
+.head_in{width: 200px;
+        text-align: center;
+        margin: 0 auto;
+        margin-bottom: 40px;
+        padding-top: 120px;}
+.head_in b{font-size: 23px;}
+.head_in span{font-size: 14px;
+                color: #ccc;}
+.head_in span{display: inline-block;}
+.pick_m{width: 100%;
+        margin: 0 auto;
+        padding: 0;
+        display: flex;}
+.pick_m a{width: 390px; height: 300px;
+        margin-right: 23px;
+        text-decoration: none;}
+.pick_m a:hover .p_text>span {text-decoration: underline;}
+.p_right{width: 390px; height: 310px;
+        text-decoration: none;}
+.p_right:hover .p_text>span {text-decoration: underline;}
+
+.p_top{width: 390px; height: 240px;}
+.p_top img{width: 100%; height: 100%;}
+.p_bottom{width: 390px; height: 70px;
+    display: flex;
+    justify-content: space-between;}
+.p_text{width: 235px; height: 70px;
+    padding-top: 15px;
+    text-decoration: none;}
+.p_text h6{color: #000;
+        font-weight: bold;}
+.p_text span{color: #ccc;
+    text-decoration: none;
+            font-size: 12px;}
+.p_button{width: 70px; height: 70px;
+    text-align: end;
+    line-height: 70px;
+}
+.p_icon{width: 30px; height: 30px;
+        color: rgb(80, 80, 80);
+        text-decoration: none;
+        border: 1px solid #ccc;
+        border-radius: 50%;}
+
+
+.review{width: 100%;height: 335px;
+        margin-top: 110px;}
+.review img{width: 100%; height: 100%;}
+.best_nav{width: 500px; height: 18px;
+        margin: 0 auto;
+        padding: 0;
+        display: flex;
+        justify-content: space-between;}
+.best_nav li{cursor: pointer;
+        color:#ccc;
+        position: relative;}
+.best_nav li:after{content:"";
+        position: absolute;
+        left: 0;bottom:-50%; 
+        background-color:#ccc;
+        width: 0px; height: 2px;}
+.best_nav li.on{color: #000;}
+.best_nav li.on:after{width:100%;
+                transition: all 0.5s;}
+.best_list{width: 100%; height: 360px;
+        margin-top: 40px;
+        position: relative;}
+.best_list a{text-decoration: none;
+                color:#454444}
+.best_list a span{color:#333131;}
+.best_list li{width: 100%;
+        position: absolute;
+        top: 0; left: 0;
+        opacity: 0;}
+.best_list li.active{
+    opacity: 1;}
+.active {display: flex;}
+.best_list div{width:275px; height: 320px;
+            margin-right: 2%;}
+.best_list div:last-child{margin-right: 0;}
+.best_list img{width: 100%;}
+.best_list span{display:block; 
+            font-size:12px;}  
+            
+.contact img{width: 100%;}
